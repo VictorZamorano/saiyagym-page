@@ -1,0 +1,7 @@
+.whiteBorder{
+    border: 4;
+    border-color: black;
+    border-radius: '20px';
+}
+
+html{scroll-behavior:smooth}
