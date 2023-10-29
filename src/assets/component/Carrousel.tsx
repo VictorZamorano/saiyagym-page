@@ -12,12 +12,12 @@ export default function Carrousel()
         {
             id: 1,
             name: "Random Name #1",
-            img: "/public/gymAbout.jpg"
+            img: "/gymAbout.jpg"
         },
         {
             id: 2,
             name: "Random Name #2",
-            img: "/public/gokuAbout.png"
+            img: "/gokuAbout.png"
         }
     ]
 

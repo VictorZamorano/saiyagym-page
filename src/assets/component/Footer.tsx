@@ -42,7 +42,7 @@ export default function Footer() {
           <Grid textAlign={'center'} marginBottom={2} paddingTop={3}>
             <Typography variant='h3' fontWeight={'bold'}>BATALLA SAIYAGYM</Typography>
             <Box marginTop={1}>
-              <img src="/public/batallasaiyayinlogo.png" alt="batallasaiyayinlogo.png" style={{width: '100px', height: '100px'}}/>
+              <img src="/batallasaiyayinlogo.png" alt="batallasaiyayinlogo.png" style={{width: '100px', height: '100px'}}/>
             </Box>
           </Grid>
           <Container>

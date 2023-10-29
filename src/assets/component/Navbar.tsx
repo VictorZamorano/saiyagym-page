@@ -83,7 +83,7 @@ export default function Navbar (props: Props) {
           <Grid sx={{ flexGrow: 1, display: { xs: 'block', sm: 'flex', marginLeft: 10 }, alignItems:'center' }}>
             <Grid sx={{textAlign:{xs: 'center'}, marginRight: {xs:5}}}>
               <HashLink smooth to={'/#top'}>
-                <img src='/public/batallasaiyayinlogo.png' style={{width: '50px', height: '50px'}}></img>
+                <img src='/batallasaiyayinlogo.png' style={{width: '50px', height: '50px'}}></img>
               </HashLink>
             </Grid>
             <Typography

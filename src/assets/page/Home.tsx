@@ -77,10 +77,10 @@ export default function HomePage() {
           <Typography variant='h3' sx={{...strokeText}}>Horarios</Typography>
           </Grid>
           <Grid item xs={12} md={3}>
-            <Img src="/public/schedules1.png" alt="schudeles1" sx={{...whiteBorder}}/>
+            <Img src="/schedules1.png" alt="schudeles1" sx={{...whiteBorder}}/>
           </Grid>
           <Grid item xs={12} md={3}>
-            <Img src="/public/schedules2.png" alt="schudeles2" sx={{...whiteBorder}}/>
+            <Img src="/schedules2.png" alt="schudeles2" sx={{...whiteBorder}}/>
           </Grid>
           <Grid item xs={12} md={3}>
             <Box sx={{...whiteBorder, p: 1, color: '#fff'}}>
