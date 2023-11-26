@@ -8,6 +8,9 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './assets/component/Navbar';
 import HomePage from './assets/page/Home';
 import Footer from './assets/component/Footer';
+import FindUs from './assets/page/FindUs';
+import Team from './assets/page/Team';
+
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
     <main>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
+        <Route path="/donde-encontrarnos" element={<FindUs/>}/>
+        <Route path="/equipo" element={<Team/>}/>
       </Routes>
     </main>
     <footer>

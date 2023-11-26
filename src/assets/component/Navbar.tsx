@@ -28,13 +28,13 @@ interface Props {
 const drawerWidth = 240;
 const navItems = [
   {
-    title: 'Inicio', path: '#'
+    title: 'Inicio', path: '/'
   },
   {
-    title: 'Equipo', path: '#equipo'
+    title: 'Equipo', path: '/equipo'
   },
   {
-    title: 'Donde encuentrarnos', path: '#donde-encontrarnos'
+    title: 'Donde encuentrarnos', path: '/donde-encontrarnos'
   }
 ];
 

@@ -61,6 +61,15 @@ export const theme = createTheme({
           },
         }
       }
+    },
+    MuiDivider:{
+      styleOverrides: {
+        root: {
+            "&.MuiDivider-root":{
+              backgroundColor: '#fff'
+          }
+        }
+      }
     }
   },
 });

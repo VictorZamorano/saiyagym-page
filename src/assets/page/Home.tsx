@@ -1,7 +1,8 @@
-import { Grid, Paper, Typography, styled} from '@mui/material';
+import { Grid, /* Paper,  */Typography, styled} from '@mui/material';
 import Box from '@mui/material/Box';
-import { theme } from '../../theme.tsx';
+/* import { theme } from '../../theme.tsx'; */
 import Carrousel from '../component/Carrousel';
+import ContainerItem from '../component/ContainerItem.tsx';
 
 
 export default function HomePage() {
@@ -35,7 +36,7 @@ export default function HomePage() {
           </Box>
         </Grid>
 
-      <Paper
+{/*       <Paper
       id='horario'
       elevation={6}
       sx={{
@@ -49,9 +50,9 @@ export default function HomePage() {
         borderLeft: {xs: 0, md: 3},
         borderRight: {xs: 0, md: 3},
         borderColor: {xs: theme.palette.secondary.main, md: theme.palette.secondary.main},
-        borderRadius: {xs: 0, md: '20px'},  
-}} 
-    >
+        borderRadius: {xs: 0, md: '20px'}}} 
+    > */}
+    <ContainerItem>
         <Grid className='schedulesImg' container justifyContent="center">
           <Grid margin={1}>
           <Typography variant='h3'>Horarios</Typography>
@@ -89,7 +90,8 @@ export default function HomePage() {
             </Grid>
           </Grid>
         </Grid>
-      </Paper>
+      </ContainerItem>
+      {/* </Paper> */}
     </>
   );
 }
