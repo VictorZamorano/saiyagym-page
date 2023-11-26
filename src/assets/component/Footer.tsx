@@ -4,6 +4,9 @@ import { HashLink } from 'react-router-hash-link';
 import Box from '@mui/material/Box';
 import { theme } from '../../theme.tsx';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
@@ -35,6 +38,20 @@ export default function Footer() {
     window.scrollTo({top: yCoordinate + yOffset, behavior: 'smooth'});       
   };
 
+  const copyEmail = () =>{
+    navigator.clipboard.writeText('saiyagym@gmail.com');
+    toast.success("¡Copiado!", {
+      position: "top-right",
+      autoClose: 1500,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+    });
+  }
+
   return (
     <>
      <Box  sx={{...footerStyle}}>
@@ -62,10 +79,11 @@ export default function Footer() {
                 </Link>
               </Grid>
               <Grid item xs={12} md={4}>
-                <Button color='inherit'>
+                <Button color='inherit' onClick={copyEmail}>
                   <EmailIcon sx={{mr:1}}/>
                     saiyagym@gmail.com
                 </Button>
+                <ToastContainer/>
               </Grid>
             </Grid>
             <hr />

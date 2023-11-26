@@ -1,6 +1,5 @@
-import { Grid, /* Paper,  */Typography, styled} from '@mui/material';
+import { Grid, Typography, styled} from '@mui/material';
 import Box from '@mui/material/Box';
-/* import { theme } from '../../theme.tsx'; */
 import Carrousel from '../component/Carrousel';
 import ContainerItem from '../component/ContainerItem.tsx';
 
@@ -36,22 +35,6 @@ export default function HomePage() {
           </Box>
         </Grid>
 
-{/*       <Paper
-      id='horario'
-      elevation={6}
-      sx={{
-        margin: 'auto',
-        marginBottom: 5,
-        maxWidth: '1300px',
-        maxHeight: '2000px',
-        flexGrow: 1,
-        padding: '1rem',
-        border: 3,
-        borderLeft: {xs: 0, md: 3},
-        borderRight: {xs: 0, md: 3},
-        borderColor: {xs: theme.palette.secondary.main, md: theme.palette.secondary.main},
-        borderRadius: {xs: 0, md: '20px'}}} 
-    > */}
     <ContainerItem>
         <Grid className='schedulesImg' container justifyContent="center">
           <Grid margin={1}>
@@ -91,7 +74,6 @@ export default function HomePage() {
           </Grid>
         </Grid>
       </ContainerItem>
-      {/* </Paper> */}
     </>
   );
 }

@@ -18,7 +18,7 @@ export default function ContainerItem({id, marginTop, children}: paperProps) {
             margin: 'auto',
             marginTop: {marginTop},
             marginBottom: 5,
-            maxWidth: '1300px',
+            maxWidth: {xs:'1000px', lg: '1400px'},
             maxHeight: '2000px',
             flexGrow: 1,
             padding: '1rem',
