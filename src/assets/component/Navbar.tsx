@@ -34,7 +34,7 @@ const navItems = [
     title: 'Equipo', path: '/equipo'
   },
   {
-    title: 'Donde encuentrarnos', path: '/donde-encontrarnos'
+    title: 'Donde encontrarnos', path: '/donde-encontrarnos'
   }
 ];
 
